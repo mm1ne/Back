@@ -105,8 +105,7 @@ io.on('connection' , socket => {
     // });
     socket.on('CHECK' , ({r_id, u_id}) => {
         console.log("Работает?");
-        socket.emit('Залупа');
-        socket.emit('privki' , "Залупа")
+        socket.emit('hhhh');
         
        
     });
